@@ -1,5 +1,5 @@
 # Quiz Projeto Integrador UNIVESP
-Quiz referente ao Projeto Integrador
+## Atividade referente ao Projeto Integrador ‖ do curso de Tecnologia da informação.
 
 | Aluno                        | RA      |
 |-------------------------      | ------- |
