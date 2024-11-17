@@ -85,7 +85,7 @@ function finishGame() {
       message = "Muito bom :)"
       break
     case (performance >= 50):
-      message = "Bom"
+      message = "Bom :)"
       break
     default:
       message = "Pode melhorar :("
@@ -109,64 +109,64 @@ function finishGame() {
 
 const questions = [
   {
-    question: "Dentro de qual elemento HTML colocamos o JavaScript?",
+    question: "Qual das opções não pode ser considerada uma transformação física?",
     answers: [
-      { text: "<javascript>", correct: false },
-      { text: "<js>", correct: false },
-      { text: "<script>", correct: true },
-      { text: "<scripting>", correct: false }
+      { text: "Dissolução do açúcar em água", correct: false },
+      { text: "Ebulição da água", correct: false },
+      { text: "Obtenção de vinho por meio da fermentação da uva", correct: true },
+      { text: "Evaporação do álcool", correct: false }
     ]
   },
   {
-    question: "Onde é o lugar correto para inserir JavaScript?",
+    question: "Quais componentes celulares estão presentes tanto em células eucariontes quanto procariontes?",
     answers: [
-      { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-      { text: "No <body>", correct: false },
-      { text: "No <head>", correct: false },
-      { text: "Em outro lugar", correct: false }
+      { text: "Membrana plasmática e ribossomos", correct: true },
+      { text: "Ribossomos e lisossomos", correct: false },
+      { text: "Membrana plasmática e mitocôndrias", correct: false },
+      { text: "Lisossomos e membrana plasmática", correct: false }
     ]
   },
   {
-    question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+    question: "Qual bioma brasileiro foi atingido pela maior tragédia de sua história em 2020, perdendo mais de 25% da área?",
     answers: [
-      { text: '<script src="xxx.js">', correct: true },
-      { text: '<script href="xxx.js">', correct: false },
-      { text: '<script name="xxx.js">', correct: false },
+      { text: "Pantanal", correct: true },
+      { text: "Cerrado", correct: false },
+      { text: "Mata Atlântica", correct: false },
       { text: "Nenhuma das alternativas", correct: false }
     ]
   },
   {
-    question: 'O arquivo JavaScript externo deve conter a tag <script>',
+    question: "O que causa o fenômeno da voçoroca?",
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Construção de moradias em locais inapropriados", correct: false },
+      { text: "Degradação da vegetação, que deixa o solo vulnerável e prejudica a drenagem da chuva", correct: true }
     ]
   },
   {
-    question: 'Como escrever "Hello World" numa caixa de alerta?',
+    question: "EMBORA ela tenha feito o dever de casa, não foi bem na prova. Qual é o tipo da conjunção em destaque?",
     answers: [
-      { text: 'msg("Hello World");', correct: false },
-      { text: 'alert("Hello World");', correct: true },
-      { text: 'msgBox("Hello World");', correct: false },
-      { text: 'alertBox("Hello World");', correct: false }
+      { text: "Comparativa", correct: false },
+      { text: "Concessiva", correct: true },
+      { text: "Consecutiva", correct: false },
+      { text: "Causal", correct: false }
     ]
   },
   {
-    question: 'Como podemos criar uma função no JavaScript?',
+    question: "Um triângulo com 10 cm de base tem 30 cm² de área. Qual é a altura dele, em cm?",
     answers: [
-      { text: 'function:myFunction()', correct: false },
-      { text: 'function myFunction()', correct: true },
-      { text: 'function = myFunction()', correct: false },
-      { text: 'Nenhum desses códigos criaria uma função', correct: false }
+      { text: "10", correct: false },
+      { text: "6", correct: true },
+      { text: "30", correct: false },
+      { text: "60", correct: false }
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: "Na extração do petróleo, também são extraídos componentes mais densos, como água salgada, areia e argila, que serão removidos na primeira etapa do beneficiamento. Que etapa é essa?",
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: "Filtração", correct: false },
+      { text: "Destilação", correct: false },
+      { text: "Catação", correct: false },
+      { text: "Decantação", correct: true },
     ]
   },
 ]
